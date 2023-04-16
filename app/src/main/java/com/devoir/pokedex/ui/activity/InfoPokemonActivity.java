@@ -62,7 +62,7 @@ public class InfoPokemonActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_info_pokemon);
+        setContentView(R.layout.pokemon_infos);
         setTitle(APP_TITLE_INFO);
         createLoadingAnimation();
         getViews();

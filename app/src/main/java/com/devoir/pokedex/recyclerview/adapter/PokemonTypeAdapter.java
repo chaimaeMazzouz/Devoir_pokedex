@@ -32,7 +32,7 @@ public class PokemonTypeAdapter extends RecyclerView.Adapter<com.devoir.pokedex.
     @NonNull
     @Override
     public PokemonTypeAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_recyclerview_info, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_infos, parent, false);
         return new PokemonTypeAdapter.ViewHolder(view);
     }
 

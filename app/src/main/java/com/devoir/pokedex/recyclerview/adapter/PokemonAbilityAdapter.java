@@ -34,7 +34,7 @@ public class PokemonAbilityAdapter extends RecyclerView.Adapter<PokemonAbilityAd
     @NonNull
     @Override
     public ViewHolderAbility onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_recyclerview_info, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_infos, parent, false);
         return new ViewHolderAbility(view);
     }
 
